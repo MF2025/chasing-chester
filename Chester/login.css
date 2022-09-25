@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+.content {
+    width: 300px;
+    max-height: 10vh;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0.5px solid rgb(66, 65, 65);
+    letter-spacing: .05rem;
+}
+img {
+    width: 20%;
+    height: 50px;
+    margin-left: 2.5%;
+}
+.deal1 {
+    display: flex;
+    border-bottom: 0.5px solid rgb(66, 65, 65);
+}
+.deal1:hover {
+    cursor: pointer;
+    background-color: #d3d3d3;
+}
+.one {
+    margin-left: 5%;
+    width: 33%;
+}
+.two {
+    width: 33%;
+    margin-left: 5%;
+}
+main {
+    overflow-y: scroll;
+}
